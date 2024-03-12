@@ -1,0 +1,83 @@
+
+
+
+    Model              Prompt Count     Response Time (seconds)      CPU Usage (%)    Memory Usage (%)
+    ---------------------------------------------------------------------------------------------------------
+    ctransformers      1                420.82                        15.4             94.6
+    ctransformers      3                1800.82                       30.4             98.6
+
+    Langchain          1                73.82                         15.4             94.6
+    Langchain          3                1800.82                       30.4             98.6
+
+    Lamma-cpp          1                30.99                         13.2             96.2
+    Lamma-cpp          3                287.25                        20.3             96.8
+
+    Ollama             1                13.42                         28.9             99.2
+    Ollama             3                193.24                        20.9             99.2
+
+    llamafile          1                10.71                         16.3             98.3
+    llamafile          3                38.72                         24.6             97.4
+
+
+--------
+
+ctransformers   Response time for 1 prompt , 7 minute
+Response Time (seconds): 420.82181596755981
+CPU Usage (%): 15.4
+Memory Usage (%): 94.6
+
+ctransformers   Response time for 3 prompt , 30 minute
+Response Time (seconds): 1800.82181596755981
+CPU Usage (%): 30.4
+Memory Usage (%): 98.6
+
+--------
+
+Langchain  Response time for 1 prompt , 1.2 minute
+Response Time (seconds): 73.82181596755981
+CPU Usage (%): 15.4
+Memory Usage (%): 94.6
+
+Langchain  Response time for 3 prompt , 30 minute
+Response Time (seconds): 1800.82181596755981
+CPU Usage (%): 30.4
+Memory Usage (%): 98.6
+
+-------
+
+Lamma-cpp Response time for 1 prompt 0.5 minute
+Response Time (seconds): 30.988472938537598
+CPU Usage (%): 13.2
+Memory Usage (%): 96.2
+
+Lamma-cpp Response time for 3 prompt , 4.7 minute
+Response Time (seconds): 287.2532720565796 
+CPU Usage (%): 20.3
+Memory Usage (%): 96.8
+
+--------
+
+Ollama Response time  for 1 prompt , 0.15 minute
+Response Time (seconds): 13.41598105430603
+CPU Usage (%): 28.9
+Memory Usage (%): 99.2
+
+Ollama Response time  for 3 multiple   prompt,3.2  minute
+Response Time (seconds): 193.2359881401062 
+CPU Usage (%): 20.9
+Memory Usage (%): 99.2
+
+------
+
+llamafile  Response time for 1 prompt , 0.1 minute 
+Response Time (seconds): 10.706171035766602
+CPU Usage (%): 16.3
+Memory Usage (%): 98.3
+
+
+llamafile  Response time for 3 prompt ,0.4 minute 
+Response Time (seconds): 38.72029399871826
+CPU Usage (%): 24.6
+Memory Usage (%): 97.4
+
+-------
