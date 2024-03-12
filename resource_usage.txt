@@ -62,22 +62,48 @@ Response Time (seconds): 13.41598105430603
 CPU Usage (%): 28.9
 Memory Usage (%): 99.2
 
-Ollama Response time  for 3 multiple   prompt,3.2  minute
+Ollama Response time  for 3 multiple   prompt, 3.2  minute
 Response Time (seconds): 193.2359881401062 
 CPU Usage (%): 20.9
 Memory Usage (%): 99.2
 
 ------
 
-llamafile  Response time for 1 prompt , 0.1 minute 
+
+| Model             | Prompt Count | Response Time (seconds) | CPU Usage (%) | Memory Usage (%) |
+|-------------------|--------------|-------------------------|---------------|------------------|
+| local_llamafile   | 1            | 10.71                   | 16.3          | 98.3             |
+| local_llamafile   | 3            | 38.72                   | 24.6          | 97.4             |
+| edge_instance     | 1            | 39.17                   | 15.0          | 96.1             |
+| edge_instance     | 3            | 293.24                  | 11.1          | 95.6             |
+
+
+
+
+
+local_llamafile  Response time for 1 prompt , 0.1 minute 
 Response Time (seconds): 10.706171035766602
 CPU Usage (%): 16.3
 Memory Usage (%): 98.3
 
 
-llamafile  Response time for 3 prompt ,0.4 minute 
+local_llamafile   Response time for 3 prompt ,0.6 minute 
 Response Time (seconds): 38.72029399871826
 CPU Usage (%): 24.6
 Memory Usage (%): 97.4
 
 -------
+
+edge_instance  Response time for 1 prompt , 0.6 minute 
+Response Time (seconds): 39.172000885009766
+CPU Usage (%): 15.0
+Memory Usage (%): 96.1
+
+
+edge_instance Response time for 3 prompt , 4.8 minute 
+Response Time (seconds): 293.2425100803375
+CPU Usage (%): 11.1
+Memory Usage (%): 95.6
+
+----
+
